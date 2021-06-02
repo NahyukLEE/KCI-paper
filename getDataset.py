@@ -10,7 +10,7 @@ def search_selenium(search_name, search_path, search_limit):
 
     image_count = len(browser.find_elements_by_tag_name("img"))
 
-    print("로드된 이미지 개수 : ", image_count)
+    print("Number you will load images : ", image_count)
 
     browser.implicitly_wait(2)
 
@@ -22,8 +22,8 @@ def search_selenium(search_name, search_path, search_limit):
 
 
 if __name__ == "__main__":
-    search_name = input("검색하고 싶은 키워드 : ")
-    search_limit = int(input("원하는 이미지 수집 개수 : "))
+    search_name = input("Search Keyword : ")
+    search_limit = int(input("Num : "))
     search_path = "Your Path"
     # search_maybe(search_name, search_limit, search_path)
     search_selenium(search_name, search_path, search_limit)
