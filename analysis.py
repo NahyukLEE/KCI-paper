@@ -107,7 +107,7 @@ def plot_colors(hist, centroids):
   #print("명도 분산:", final_v)
   #print("채도 분산: ", final_s)
 
-  with open('../feature.csv', 'w', encoding='utf-8', newline='') as f:
+  with open('../feature.csv', 'a', encoding='utf-8', newline='') as f:
     writer = csv.writer(f)
     writer.writerows([[img_name, r_avg, g_avg, b_avg, final_dt, final_v, final_s]])
 
@@ -118,7 +118,7 @@ def plot_colors(hist, centroids):
 
 
 
-img_folder = './dataset/happy/data'
+img_folder = './dataset/angry/data'
 img_files = [f for f in listdir(img_folder) if isfile(join(img_folder, f))]
 img_files = natsort.natsorted(img_files, reverse=False)
 
