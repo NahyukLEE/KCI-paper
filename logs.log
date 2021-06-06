@@ -6357,3 +6357,10 @@
 2021-06-03 05:12:58,753:INFO:Plot type: parameter
 2021-06-03 05:12:58,779:INFO:Visual Rendered Successfully
 2021-06-03 05:12:58,870:INFO:plot_model() succesfully completed......................................
+2021-06-04 18:33:41,790:INFO:Initializing plot_model()
+2021-06-04 18:33:41,795:INFO:plot_model(is_in_evaluate=False, verbose=True, use_train_data=False, fold=None, plot=acc, system=True, scale=1, save=False, label=False, groups=None, fit_kwargs=None, feature_name=None, estimator=LogisticRegression(C=7.174, class_weight={}, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=3173, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False), display_format=None, display=None)
+2021-06-04 18:33:41,796:INFO:Checking exceptions
